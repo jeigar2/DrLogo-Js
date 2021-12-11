@@ -7,3 +7,5 @@ Aplicacion HTML para dibujar con los cursores:
 - **CTRL** avanzar +10
 - **ALT** disminuir -10
 - **G** aumentar grosor de la línea
+
+![dibujo ejemplo 001](img/dibujo001.png)
