@@ -1,6 +1,6 @@
 # Dr Logo-Js
 
-Aplicacion Js para dibujar con los cursores:
+Aplicacion HTML para dibujar con los cursores:
 
 - **SHIFT** ocultar / mostrar la tortuga
 - **CTRL** avanzar +10
