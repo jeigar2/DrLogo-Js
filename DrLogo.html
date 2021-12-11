@@ -7,10 +7,21 @@
     <title>Dr Logo en Acción</title>
 </head>
 <body>
-    <p>Mueve el las flechas para dibujar</p>
-    <p>SHIFT para ocultar tortuga</p>
-    <p>CTRL para avanzar + 10</p>
-    <p>ALT para disminuir -10</p>
+    <p>Para dibujar: mueve las flechas</p>
+    <select name="colores" id="colores">
+        <option value="black" selected>negro</option>
+        <option value="red">rojo</option>
+        <option value="orange">naranja</option>
+        <option value="yellow">amarillo</option>
+        <option value="blue">azul</option>
+        <option value="green">verde</option>
+        <option value="gray">gis</option>
+    </select>
+    <ul>
+        <li>SHIFT para ocultar tortuga</li>
+        <li>CTRL para avanzar + 10</li>
+        <li>ALT para disminuir -10</li>
+    </ul>
     <canvas width="500" height="500" id="pizarra"></canvas>
     <script src="DrLogo.js"></script>
 </body>
