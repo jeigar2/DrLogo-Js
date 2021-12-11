@@ -1,4 +1,7 @@
 document.addEventListener("keydown", moveTurtle);
+var listaColores = document.getElementById("colores");
+listaColores.addEventListener("change", colorChange);
+var colorin = listaColores.value;
 
 var teclas = {
     UP: 38,
@@ -10,6 +13,12 @@ var teclas = {
     CTRL: 17, // +10 
     ALT: 18, // -10
     G: 71 // grosor linea
+}
+
+function colorChange()
+{
+    console.log(this.value);
+    colorin = this.value;
 }
 
 var pizarra = document.getElementById("pizarra")
@@ -83,7 +92,7 @@ var xInitial = pizarra.width / 2
 var yInitial = pizarra.height / 2;
 function drawPoint(){
     area.beginPath();
-    area.strokeStyle = "blue";
+    area.strokeStyle = colorin;
     if(turtleHide){
         area.moveTo(x, y);
         console.log("hide");
