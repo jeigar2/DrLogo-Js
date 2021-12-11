@@ -2,6 +2,7 @@
 
 Aplicacion HTML para dibujar con los cursores:
 
+- Puede seleccionar un color de la lista
 - **SHIFT** ocultar / mostrar la tortuga
 - **CTRL** avanzar +10
 - **ALT** disminuir -10
